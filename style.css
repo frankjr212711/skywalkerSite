@@ -40,7 +40,7 @@ nav {
   width: 100%;
   padding: 10px 0;
   line-height: 1.6;
-  /* z-index: 2; */
+  z-index: 999;
   /* transition: .3s ease; */
 }
 nav .nav-content {
@@ -63,7 +63,7 @@ nav .nav-content-top {
 }
 nav .nav-content-top .search a {
   color: #fff;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   font-size: 13px;
 }
 nav .nav-content-top .search i.fa-brands {
@@ -389,6 +389,7 @@ section {
   background-size: cover;
   background-attachment: fixed;
 
+
  
 
   /* border: 1px solid red; */
@@ -432,7 +433,12 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: left;
+  transition: .5s ease;
 
+}
+.text-box.slide {
+  transform: translateX(-20%);
+  
 }
 .text-box .text-1 {
   font-size: 25px;
@@ -619,6 +625,8 @@ footer {
   justify-content: flex-end;
 }
 
+
+
 /* MEDIA QUERIES RESPONSIVE */
 
 @media (max-width: 995px) {
@@ -627,8 +635,8 @@ footer {
     position: fixed;
     top: 15%;
     right: -100%;
-    width: 40%;
-    height: 350vh;
+    width: 35%;
+    height: 350px;
     background: linear-gradient(to bottom, rgb(1, 1, 37), rgb(39, 34, 151));
     background: #f7f7f7 !important;
     padding: 0 2rem 0 0;
@@ -664,14 +672,17 @@ footer {
     font-size: 19px;
     font-weight: 600;
   }
-  .nav-content .nav-content-top {
-    /* display: none; */
-  }
+
   .nav-content .nav-content-top .search .fa-brands {
     display: none;
+    transition: .3s ease;
   }
-  .nav-content .nav-content-top .search, .contact-nums {
+
+  .nav-content .nav-content-top  {
     margin-right: 2rem;
+    transition: .3s ease;
+
+
   }
   .nav-content-bottom .nav-links.open {
     right: 2%;
@@ -689,7 +700,20 @@ footer {
     justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
+    transition: .5s ease;
   }
+  .nav-content-bottom .menu-btn.active {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav-content-top.active {
+  transform: translateX(35%);
+  }
+
+  .nav-content-top.active {
+    transform: translateX(10%);
+
+    }
   /* .nav-content-bottom .menu-btn i.open::before {
     content: '\f00d';
     color: #fff;
@@ -703,6 +727,25 @@ footer {
     color: #222;
     font-size: 25px;
   }
+
+  nav.sticky .nav-content .nav-content-top {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    color: #333;
+
+  }
+  nav.sticky .nav-content .nav-content-top .search a {
+
+    color: #333;
+    display: inline-block;
+}
+nav.sticky .nav-content .nav-content-top .contact-nums {
+  color: #333;
+  display: inline-block;
+}
+
   .nav-content-bottom .nav-links li:first-child {
     margin-top: 4rem;
   }
@@ -724,6 +767,7 @@ footer {
   .nav-content-bottom .nav-links li a:hover {
     /* transform: scaleX(1.01); */
     color: navy !important;
+    font-weight: 500;
     transition: .2s ease;
   }
   nav.sticky .nav-content-bottom .nav-links li a {

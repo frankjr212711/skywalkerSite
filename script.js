@@ -6,7 +6,9 @@ const nav = document.querySelector('nav'),
       menuBtn = document.querySelector('.menu-btn'),
       closeBtn = document.querySelector('.close-btn'),
       navLinks = document.querySelector('.nav-links'),
-      overLay = document.querySelector('.overlay');
+      overLay = document.querySelector('.overlay'),
+      textBox = document.querySelector('.text-box');
+  
 
 window.onscroll = function() {
   const scrollData = document.documentElement.scrollTop;
@@ -19,12 +21,19 @@ menuBtn.addEventListener('click', function() {
   navLinks.classList.add('open');
   overLay.classList.add('dark');
   // nav.classList.add('close')
+  textBox.classList.add('slide');
+  menuBtn.classList.add('active')
+  navContentTop.classList.add('active')
 
 })
 closeBtn.addEventListener('click', function() {
   navLinks.classList.remove('open');
 
   overLay.classList.remove('dark')
+  textBox.classList.remove('slide')
+  menuBtn.classList.remove('active')
+  navContentTop.classList.remove('active')
+
   // nav.classList.remove('close')
 })
 $(document).ready(function(){
