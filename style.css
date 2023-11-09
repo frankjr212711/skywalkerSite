@@ -368,7 +368,7 @@ nav.sticky .nav-links li:hover .drop-menu {
 /* GENERAL SECTION STYLES */
 
 section {
-  height: 600px;
+
   margin: auto;
   /* margin-bottom: 2rem; */
 
@@ -481,31 +481,22 @@ section {
 .quote-text h3 {
   display: inline;
 }
-#sky {
-  background: #f9f9f9;
-  background: rgba(238, 238, 238, 0%);
-}
+
 
 
 
 
 /* WATEREX SECTION STYLES */
+#liberex {
+  background: #f2f2f2 !important;
+}
 
-#waterex {
-  background: #f2f2f2;
-}
-.waterex-width {
-  /* padding-top: 50px; */
-  margin: auto;
-  width: 80%;
-  height: 80vh;
-}
 
 
 /* GJR SECTION STYLES */
 #gjr {
   /* padding-top: 50px; */
-  background: rgba(238, 238, 238, 0%);
+  /* background: rgba(238, 238, 238, 0%); */
   width: 100%;
   min-height: 100vh;
   background-image: url(/assets/images/image-4.jpg);
@@ -521,7 +512,7 @@ section {
  .section-content {
   width: 80%;
   margin: auto;
-  height: 100vh;
+
 
 
   display: flex;
@@ -579,10 +570,22 @@ section {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
   width: 100%;
   height: 350px;
-  background: #f9f9f9
+  background: #f2f2f2
 }
 .footer-content {
   margin: auto;
@@ -592,7 +595,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   /* padding-bottom: .5rem; */
-  background: #fff;
+  /* background: #fff; */
 }
 .footer-logo-box {
   /* margin-top: .5rem; */
@@ -633,6 +636,13 @@ footer .param {
   width: 80%;
   margin: auto;
 }
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERIES RESPONSIVE */
