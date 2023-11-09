@@ -489,6 +489,7 @@ section {
 /* LIBEREX SECTION STYLES */
 #liberex {
   background: #f2f2f2 !important;
+  /* margin-bottom: 2rem; */
 }
 
 
@@ -508,7 +509,8 @@ section {
 
  .section-content {
   width: 80%;
-  margin: auto;
+  margin: 75px auto;
+  padding: 20px 0;
 
 
 
@@ -520,20 +522,21 @@ section {
 }
 .section-text-container {
  width: calc(50% - 10px);
+ font-family: 'Be Vietnam Pro';
 }
 .section-text-container .text {
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1;
   margin-bottom: 16px;
 }
 .section-text-container p {
-  font-size: 19px;
+  font-size:21px;
   margin-bottom: 1rem;
 }
 .section-text-container .read_more {
   width: 140px;
 
-  padding: 8px 13px;
+  padding: 5px 10px;
   font-weight: 500;
   display: inline-block;
   border-radius: 25px;
@@ -556,7 +559,7 @@ section {
 .section-image-container .image-box  {
 
   border-radius: 6px;
-  border: 1px solid #37a0ef;
+  /* border: 1px solid #37a0ef;g */
   display: flex;
 }
 .section-image-container .image-box img {
@@ -597,7 +600,7 @@ footer {
 .footer-logo-box {
   /* margin-top: .5rem; */
   width: 50%;
-  height: 100%;
+  height: 77%;
   display: flex;
   justify-content: center;
   align-items: center;
