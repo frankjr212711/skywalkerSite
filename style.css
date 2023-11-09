@@ -609,6 +609,7 @@ footer {
   align-items: center;
   /* padding-bottom: .5rem; */
   /* background: #fff; */
+  border-bottom: 1px solid #ddd;
 }
 .footer-logo-box {
   /* margin-top: .5rem; */
@@ -666,7 +667,7 @@ footer {
 }
 .footer-info-section a {
   font-size: 14px;
-  line-height: 2;
+  line-height: 3;
   display: inline-block;
 
 }
@@ -675,15 +676,42 @@ footer {
   transition: .3s ease;
 }
 .footer-right-reserved {
-  text-align: left;
-  width: 100%;
-  background: #eee;
-  padding: .5rem 0;
-}
-footer .param {
+
   width: 80%;
+  /* height: 33px; */
+  background: #f2f2f2;
+
   margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+
+  /* border: 1px solid red; */
 }
+.footer-right-reserved .search {
+  display: flex;
+  font-size: 13px;
+}
+.footer-right-reserved .search a,
+.footer-right-reserved .contact-nums {
+
+  font-size: 13px;
+  color: #444;
+}
+
+footer .param {
+
+  font-size: 13px;
+
+}
+footer .param i {
+  margin: 0 .5rem;
+}
+
+
+
 
 
 
