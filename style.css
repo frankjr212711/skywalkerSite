@@ -30,7 +30,23 @@ html, body {
 }
 
 
-
+.scroll_btn {
+  position: fixed;
+  bottom: 3rem;
+  right: 1rem;
+  width: 35px;
+  height: 45px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #37a0ef;
+  border: 3px solid rgba(255, 255, 255, .4)
+}
+.scroll_btn i {
+  font-size: 20px;
+  color: rgba(255, 255, 255, .7);
+}
 
 /* NAV STYLES  */
 nav {
@@ -713,6 +729,8 @@ footer {
   font-size: 13px;
   color: #444;
   margin-right: 1rem;
+
+  padding: 2rem 0
 }
 
 footer .param {
@@ -743,7 +761,7 @@ footer .param i {
     position: fixed;
     top: 15%;
     right: -100%;
-    width: 35%;
+    width: 300px;
     height: 450px;
     background: linear-gradient(to bottom, rgb(1, 1, 37), rgb(39, 34, 151));
     background: #f7f7f7 !important;
@@ -828,8 +846,8 @@ footer .param i {
     z-index: 1
   }
   .nav-content-bottom .menu-btn {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     position: fixed;
     top: 10px;
     right: 40px;
@@ -843,33 +861,43 @@ footer .param i {
   .nav-content-bottom .menu-btn span {
     position: absolute;
     width: 25px;
-    height: 3.7px;
+    height: 5px;
     background: white; 
     /* border-radius: 8px; */
     transition: .3s ease;
     display: inline-block;
+    border-radius: 6px;
+    transition: .3s ease;
   }
   .nav-content-bottom .menu-btn span:nth-child(1) { 
       top: 11px;
+
+   
   }
   .nav-content-bottom .menu-btn span:nth-child(2) { 
-    /* opacity: 0; */
+  
   }
   .nav-content-bottom .menu-btn span:nth-child(3) { 
-    top: 25px;
+    top: 29px;
   }
 
+
+
+
+
+
+
   .nav-content-bottom .menu-btn:hover span:nth-child(1) {
-    top: 12px;
-    height: 3.7px;
+    transform: translateX(-3px);
+    width: 15px;
   }
   .nav-content-bottom .menu-btn:hover span:nth-child(2) {
-    /* height: 2.5px; */
-    height: 3.7px;
+
   }
   .nav-content-bottom .menu-btn:hover span:nth-child(3) {
-    top: 24px;
-    height: 3.7px;
+    /* top: 28px; */
+    width: 15px;
+    transform: translateX(3px);
   }
   .nav-content-bottom .menu-btn.active {
     opacity: 0;
@@ -976,5 +1004,24 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 
 
 
+}
+
+@media (max-width: 600px) {
+  .menu-btn {
+    transform:  translateY(15px);
+
+    border: 1px solid red;
+  }
+  nav.sticky .nav-content .nav-content-top {
+    display: none;
+  }
+.footer-info-section {
+  flex-direction: column;
+}
+.partners-logo-box {
+  display: none !important;
+
+  border: 1px solid red;
+}
 
 }
