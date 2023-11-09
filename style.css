@@ -980,6 +980,7 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 @media (max-width: 768px) {
 
   .section-content{
+    width: 85%;
     padding: 4rem 0;
     flex-direction: column;
     justify-content: space-between;
@@ -1009,8 +1010,6 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 @media (max-width: 600px) {
   .menu-btn {
     transform:  translateY(15px);
-
-    border: 1px solid red;
   }
   nav.sticky .nav-content .nav-content-top {
     display: none;
