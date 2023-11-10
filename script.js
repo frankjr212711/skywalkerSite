@@ -1,4 +1,6 @@
 
+
+
 const nav = document.querySelector('nav'),
       navContentTop = nav.querySelector('.nav-content-top'),
       hero = document.querySelector('.hero'),
@@ -33,7 +35,6 @@ closeBtn.addEventListener('click', function() {
   textBox.classList.remove('slide')
   menuBtn.classList.remove('active')
   navContentTop.classList.remove('active')
-
   // nav.classList.remove('close')
 })
 $(document).ready(function(){
