@@ -1116,6 +1116,18 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 }
 
 @media (max-width: 600px) {
+  .nav-content .nav-content-bottom  {
+    /* border: 1px solid red; */
+     height: 100px;
+
+     /* border: 1px solid red;; */
+   }
+   .nav-content .nav-content-bottom .logo-box {
+    transform: translate(0px, -40px);
+  }
+  nav.sticky .nav-content .nav-content-bottom .logo-box {
+    transform: translate(0px, -5px);
+  }
   .menu-btn {
     /* transform:  translateY(15px); */
   }
