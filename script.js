@@ -1,6 +1,3 @@
-
-
-
 const nav = document.querySelector('nav'),
       navContentTop = nav.querySelector('.nav-content-top'),
       hero = document.querySelector('.hero'),
@@ -9,9 +6,9 @@ const nav = document.querySelector('nav'),
       closeBtn = document.querySelector('.close-btn'),
       navLinks = document.querySelector('.nav-links'),
       overLay = document.querySelector('.overlay'),
-      textBox = document.querySelector('.text-box');
+      textBox = document.querySelector('.text-box'),
+      scrollBtn = document.querySelector('.scroll_btn');
   
-
 window.onscroll = function() {
   const scrollData = document.documentElement.scrollTop;
   scrollData > 20 ? navContentTop.classList.add('close') : navContentTop.classList.remove('close'); 
@@ -22,21 +19,19 @@ window.onscroll = function() {
 menuBtn.addEventListener('click', function() {
   navLinks.classList.add('open');
   overLay.classList.add('dark');
-  // nav.classList.add('close')
   textBox.classList.add('slide');
-  menuBtn.classList.add('active')
-  navContentTop.classList.add('active')
-
+  menuBtn.classList.add('active');
+  navContentTop.classList.add('active');
 })
+
 closeBtn.addEventListener('click', function() {
   navLinks.classList.remove('open');
-
-  overLay.classList.remove('dark')
-  textBox.classList.remove('slide')
-  menuBtn.classList.remove('active')
-  navContentTop.classList.remove('active')
-  // nav.classList.remove('close')
+  overLay.classList.remove('dark');
+  textBox.classList.remove('slide');
+  menuBtn.classList.remove('active');
+  navContentTop.classList.remove('active');
 })
+
 $(document).ready(function(){
   let typed = new Typed('.typing', {
       strings: ["Skywalker", "Pamello", "Crystello", "Waterello"],
@@ -44,10 +39,4 @@ $(document).ready(function(){
       backSpeed: 150,
       loop: true
   })
-  
-  // let typed2 = new Typed('.typing2', {
-  //     strings: ["Developer", "Designer", "Freelancer"],
-  //     typeSpeed: 50,
-  //     backSpeed: 50,
-  //     loop: true
 });
