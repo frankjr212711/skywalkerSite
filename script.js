@@ -32,6 +32,11 @@ closeBtn.addEventListener('click', function() {
   navContentTop.classList.remove('active');
 })
 
+
+scrollBtn.addEventListener('click', function() {
+  document.querySelector('html').scrollTop = 0
+});
+
 $(document).ready(function(){
   let typed = new Typed('.typing', {
       strings: ["Skywalker", "Pamello", "Crystello", "Waterello"],
