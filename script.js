@@ -39,4 +39,10 @@ $(document).ready(function(){
       backSpeed: 150,
       loop: true
   })
+  
+  // let typed2 = new Typed('.typing2', {
+  //     strings: ["Developer", "Designer", "Freelancer"],
+  //     typeSpeed: 50,
+  //     backSpeed: 50,
+  //     loop: true
 });
