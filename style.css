@@ -288,6 +288,10 @@ nav .nav-content-bottom .nav-links li a:last-child.active {
   background: white;
   color: navy;
 }
+nav.sticky .nav-content-bottom .nav-links li a:last-child.active {
+  background: navy;
+  color: white;
+}
 nav .nav-content-bottom .nav-links li a i {
   margin-left: .5rem;
 }
