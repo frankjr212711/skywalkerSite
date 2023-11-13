@@ -740,6 +740,7 @@ section {
   display: inline-block;
   border-radius: 25px;
   background: #102851;
+  background: #233e59;
   border: 3px solid transparent;
   color: #fff;
   text-align: center;
@@ -771,7 +772,8 @@ section {
 footer {
   width: 100%;
   /* height: 350px; */
-  background: #f2f2f2
+  background: #f2f2f2;
+  background:  #233e59;
 }
 .footer-content {
   margin: auto;
@@ -793,6 +795,7 @@ footer {
 .footer-logo-box img {
   width: 95%;
   border: 1px solid #37a0ef;
+  border: 3px solid #233e59;
   border-radius: 8px;
   display: flex;
 
@@ -829,11 +832,13 @@ footer {
 }
 .footer-info-section h4 {
   margin-bottom: 1rem;
+  color: #fff;
 }
 .footer-info-section a {
   font-size: 14px;
   line-height: 3;
   display: inline-block;
+  color: #fff;
 
 }
 .footer-info-section a:hover {
@@ -843,6 +848,7 @@ footer {
 .footer-right-reserved {
   width: 80%;
   background: #f2f2f2;
+  background:  #233e59;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -988,6 +994,7 @@ footer .param i {
     align-items: center;
     color: #fff;
     background: #102851;
+    background: #233e59;
     border-radius: 5px;
   }
   .nav-content-bottom .close-btn span {
@@ -1131,10 +1138,18 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 
 /* RESPONSE 768px */
 @media (max-width: 768px) {
+  .nav-content .nav-content-bottom .logo-box {
+    transform: translate(-17px, 30px) !important;
+  }
+  nav.sticky .nav-content .nav-content-bottom .logo-box {
+    transform: translate(-17px,-20px) !important;
+    
+  }
   .section-image-container .image-box {
     width: 100%;
     height: 100%;
   }
+
  .section-content{
     width: 85%;
     padding: 4rem 0;
