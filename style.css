@@ -278,13 +278,15 @@ nav .nav-content-bottom .nav-links {
 }
 nav .nav-content-bottom .nav-links li {
   display: inline-block;
-  /* margin-left: 2rem; */
+  margin-left: 1rem;
 }
 nav .nav-content-bottom .nav-links li a {
+  display: inline-block;
   color: navy;
   color: #f9f9f9;
   font-size: 13px;
-  padding: .25rem 1rem;
+  line-height: 15px;
+  padding: .25rem .5rem;
   border-radius: 25px;
 }
 nav .nav-content-bottom .nav-links li a:last-child.active {
