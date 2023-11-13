@@ -14,6 +14,8 @@ window.onscroll = function() {
   scrollData > 20 ? navContentTop.classList.add('close') : navContentTop.classList.remove('close'); 
   scrollData > 20 ? nav.classList.add('sticky') : nav.classList.remove('sticky'); 
   scrollData > 20 ? hero.classList.add('open') : hero.classList.remove('open'); 
+
+  scrollData < 500 ? scrollBtn.classList.add('flash') : scrollBtn.classList.remove('flash')
 }
 
 menuBtn.addEventListener('click', function() {
