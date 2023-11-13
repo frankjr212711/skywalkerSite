@@ -214,12 +214,14 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 5px 0;
   z-index: 999;
+  transition: .3s ease;
 
 }
 nav .nav-content {
   width: 80%;
-  height: auto;
+  /* height: auto; */
   margin: auto;
 }
 nav.close {
@@ -237,6 +239,7 @@ nav .nav-content-top {
   justify-content: center;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
 }
 nav .nav-content-top .search a {
   color: #fff;
@@ -300,8 +303,8 @@ nav .nav-content-bottom .nav-links li a i {
 /* STICKY NAV STYLES */
 nav.sticky {
   background: #fff;
-  height: 80px;
-  /* padding: 15px 0; */
+  /* height: 80px; */
+  padding: 10px 0;
   box-shadow: 0 1px 10px 1px rgba(2, 2, 2, .2);
   transition: .3s ease;
 }
@@ -329,9 +332,9 @@ nav .nav-links li a:hover i {
 .logo-box {
   width: 80px;
   height: 80px;
+  border: 1px solid red;
 }
  .logo-box img {
-  padding-top: .5rem;
   width: 100%;
 }
 
@@ -647,7 +650,6 @@ section {
   font-size: 50px;
   color: #222;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
 }
 .text-2 span {
   font-weight: 700;
@@ -852,10 +854,26 @@ footer .param i {
 @media (max-width: 992px) {
 
   .nav-content .nav-content-top {
-    transform: translate(-50px, 22px);
+    transform: translate(300px, 15px);
+    display: inline-block;
+    width: 50%;
+  }
+  nav.sticky .nav-content .nav-content-top {
+    transform: translate(300px, 12px);
+    display: inline-block;
+    width: 50%;
+    /* text-align: right; */
   }
   .nav-content .nav-content-bottom .logo-box {
-    transform: translateY(-50px);
+    transform: translateY(-20px);
+  }
+  .nav-content .nav-content-bottom .logo-box img {
+    /* height: 100%; */
+  }
+
+  .nav-content .nav-content-bottom  {
+   /* border: 1px solid red; */
+    height: 20px;
   }
   .nav-content-bottom .menu-btn {
     width: 45px;
@@ -1001,12 +1019,7 @@ footer .param i {
     }
 
 
-  nav.sticky .nav-content .nav-content-top {
-    display: inline-block;
-    /* border: 1px solid red; */
-    text-align: right;
 
-  }
   nav.sticky .nav-content .nav-content-top .search a {
     color: #000;
 }
@@ -1070,7 +1083,7 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 
 
 
-}
+/* } */
 
 @media (max-width: 600px) {
   .menu-btn {
