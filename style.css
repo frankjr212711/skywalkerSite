@@ -1138,12 +1138,16 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 
 /* RESPONSE 768px */
 @media (max-width: 768px) {
+  
   .nav-content .nav-content-bottom .logo-box {
     transform: translate(-17px, 30px) !important;
   }
   nav.sticky .nav-content .nav-content-bottom .logo-box {
     transform: translate(-17px,-20px) !important;
     
+  }
+  .section-text-container .text {
+    font-size: 35px;
   }
   .section-image-container .image-box {
     width: 100%;
