@@ -488,7 +488,7 @@ nav.sticky .mega-drop-menu .menu-content .col:first-child ul li a:hover {
   background: transparent;
   border: 2px solid #10053b;
   color: #10053b;
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
 }
 nav.sticky .menu-content .col .col-btn {
   color: #fff
@@ -497,7 +497,7 @@ nav.sticky .menu-content .col .col-btn:hover {
   background: transparent;
   border: 2px solid #10053b;
   color: #10053b;
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
 }
 .menu-content .col h3 { 
   text-align: center;
