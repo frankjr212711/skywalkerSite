@@ -354,7 +354,7 @@ nav .nav-links li a:hover i {
   1px 1px 3px 0 rgba(0, 0, 0, .1);
   position: absolute; 
   top: 300%;
-  left: 30%;
+  left: 20%;
   transform: translateX(-50%);
   width: 140%;
   height: 250px;
@@ -398,14 +398,17 @@ nav.sticky .nav-links .mega-drop-menu {
 
 /* MEGA-DROP MENU HOVER STYLES */
 .nav-links li:hover .mega-drop-menu {
-  top: 300%;
+  top: 150%;
   visibility: visible;
   /* opacity: .95; */
   opacity: .99;
 }
+nav.sticky .nav-links li .mega-drop-menu {
+  top: 400%;
+}
 
 nav.sticky .nav-links li:hover .mega-drop-menu {
-  top: 300%;
+  top: 320%;
   visibility: visible;
   opacity: 1;
 }
@@ -546,7 +549,7 @@ nav.sticky .menu-content .col .col-btn:hover {
   margin-left: 10px;
 }
 .nav-links li:hover .drop-menu {
-  top: 270%;
+  top: 130%;
   visibility: visible;
   opacity: .99;
 }
@@ -554,7 +557,7 @@ nav.sticky .nav-links li .drop-menu {
   top: 270%;
 }
 nav.sticky .nav-links li:hover .drop-menu {
-  top: 270%;
+  top: 150%;
 }
 .nav-links li .drop-menu li a {
   color: #222;
