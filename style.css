@@ -192,7 +192,7 @@ html, body {
 .scroll_btn {
   position: fixed;
   bottom: 3rem;
-  right: .25rem;
+  right: 80px;
   width: 35px;
   height: 45px;
   border-radius: 8px;
@@ -871,7 +871,18 @@ footer .param i {
 /* MEDIA QUERIES RESPONSIVE */
 
 @media (max-width: 992px) {
-
+  .section-text-container  .text {
+    /* width: 35%; */
+    /* border: 1px solid red; */
+    font-size: 35px;
+  }
+.section-content {
+  align-items: flex-start;
+}
+.section-content p {
+  width: 100%;
+  font-size: 17px;
+}
   .nav-content .nav-content-top {
     transform: translate(300px, 15px);
     display: inline-block;
@@ -884,7 +895,7 @@ footer .param i {
     /* text-align: right; */
   }
   .nav-content .nav-content-bottom .logo-box {
-    transform: translate(-20px, -20px);
+    transform: translate(-0px, -20px);
   }
   .nav-content .nav-content-bottom .logo-box img {
     /* height: 100%; */
@@ -899,7 +910,7 @@ footer .param i {
     height: 45px;
     position: fixed;
     top: 25px;
-    right: 45px;
+    right: 80px;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -1076,7 +1087,39 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   }
 }
 
-  
+@media (max-width: 871px) {
+  .nav-content .nav-content-top {
+    transform: translate(250px, 10px) !important;
+    width: 50%;
+    /* border: 1px solid red; */
+
+    display: none;
+  }
+
+  /* .section-content{
+    width: 85%;
+    padding: 4rem 0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .section-image-container,
+  .section-text-container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  } */
+  .section-text-container {
+    /* width: 35%; */
+    /* border: 1px solid red; */
+  }
+  .section-image-container  {
+    width: calc(55% - 20px);
+  }
+  .section-image-container .image-box {
+    width: 100%;
+    height: 330px;
+    /* border: 1px solid red; */
+  }
+} 
 
 /* RESPONSE 768px */
 @media (max-width: 768px) {
@@ -1086,16 +1129,11 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
     padding: 4rem 0;
     flex-direction: column;
     justify-content: space-between;
-
-  
   }
   .section-image-container,
   .section-text-container {
     width: 100%;
-  
-
     margin-bottom: 1.5rem;
-
   }
   .nav-content .nav-content-top {
     opacity: 0;
@@ -1144,6 +1182,17 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   display: none !important;
 
   border: 1px solid red;
+}
+.nav-content-bottom .menu-btn {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  top: 25px;
+  right: 55px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 }
