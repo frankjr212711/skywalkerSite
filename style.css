@@ -191,10 +191,10 @@ html, body {
 
 .scroll_btn {
   position: fixed;
-  bottom: 3rem;
+  bottom: 4.5rem;
   right: 80px;
   width: 35px;
-  height: 45px;
+  height: 35px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
