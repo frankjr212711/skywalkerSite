@@ -1131,7 +1131,11 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 
 /* RESPONSE 768px */
 @media (max-width: 768px) {
-
+  .section-image-container .image-box {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
  .section-content{
     width: 85%;
     padding: 4rem 0;
