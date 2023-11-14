@@ -5,17 +5,30 @@ const nav = document.querySelector('nav'),
       menuBtn = document.querySelector('.menu-btn'),
       closeBtn = document.querySelector('.close-btn'),
       navLinks = document.querySelector('.nav-links'),
+      links = document.querySelectorAll('.nav-links li a'),
       overLay = document.querySelector('.overlay'),
       textBox = document.querySelector('.text-box'),
       scrollBtn = document.querySelector('.scroll_btn');
   
+
+
+      const activePage = window.location.pathname;
+      links.forEach(link => {
+       if(link.href.includes(`${activePage}`)) {
+        link.classList.add('active');
+       }
+      })
+      
+      
+      console.log(activePage)
+
 window.onscroll = function() {
   const scrollData = document.documentElement.scrollTop;
   scrollData > 20 ? navContentTop.classList.add('close') : navContentTop.classList.remove('close'); 
   scrollData > 20 ? nav.classList.add('sticky') : nav.classList.remove('sticky'); 
-  scrollData > 20 ? hero.classList.add('open') : hero.classList.remove('open'); 
+  // scrollData > 20 ? hero.classList.add('open') : hero.classList.remove('open'); 
 
-  scrollData < 500 ? scrollBtn.classList.add('flash') : scrollBtn.classList.remove('flash')
+  // scrollData < 500 ? scrollBtn.classList.add('flash') : scrollBtn.classList.remove('flash')
 }
 
 menuBtn.addEventListener('click', function() {
