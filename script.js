@@ -1,26 +1,16 @@
 const nav = document.querySelector('nav'),
-      navContentTop = nav.querySelector('.nav-content-top'),
-      hero = document.querySelector('.hero'),
-      thinkText = document.querySelector('.text-1'),
-      menuBtn = document.querySelector('.menu-btn'),
-      closeBtn = document.querySelector('.close-btn'),
-      navLinks = document.querySelector('.nav-links'),
-      links = document.querySelectorAll('.nav-links li a'),
-      overLay = document.querySelector('.overlay'),
-      textBox = document.querySelector('.text-box'),
-      scrollBtn = document.querySelector('.scroll_btn');
+  navContentTop = nav.querySelector('.nav-content-top'),
+  hero = document.querySelector('.hero'),
+  thinkText = document.querySelector('.text-1'),
+  menuBtn = document.querySelector('.menu-btn'),
+  closeBtn = document.querySelector('.close-btn'),
+  navLinks = document.querySelector('.nav-links'),
+  links = [...document.querySelectorAll('.nav-links li a')],
+  menuLinks = document.querySelectorAll('.nav-links li'),
+  overLay = document.querySelector('.overlay'),
+  textBox = document.querySelector('.text-box'),
+  scrollBtn = document.querySelector('.scroll_btn');
   
-
-
-      const activePage = window.location.pathname;
-      links.forEach(link => {
-       if(link.href.includes(`${activePage}`)) {
-        link.classList.add('active');
-       }
-      })
-      
-      
-      console.log(activePage)
 
 window.onscroll = function() {
   const scrollData = document.documentElement.scrollTop;
@@ -30,7 +20,7 @@ window.onscroll = function() {
 
   // scrollData < 500 ? scrollBtn.classList.add('flash') : scrollBtn.classList.remove('flash')
 }
-
+console.log(menuLinks)
 menuBtn.addEventListener('click', function() {
   navLinks.classList.add('open');
   overLay.classList.add('dark');
@@ -47,22 +37,36 @@ closeBtn.addEventListener('click', function() {
   navContentTop.classList.remove('active');
 })
 
-
 scrollBtn.addEventListener('click', function() {
   document.querySelector('html').scrollTop = 0
 });
 
-$(document).ready(function(){
-  let typed = new Typed('.typing', {
-      strings: ["Skywalker", "Pamello", "Crystello", "Waterello"],
-      typeSpeed: 150,
-      backSpeed: 150,
-      loop: true
+const activePage = window.location.pathname;
+
+
+  links.forEach(link => {
+    if(link.href.includes(`${activePage}`)) {
+      link.classList.add('active')
+
+     
+    }
   })
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      link.querySelectorAll('a').remove('active')
+      link.classList.add('open')
+   
+    })
+  })
+
+
+
+// $(document).ready(function(){
+//   let typed = new Typed('.typing', {
+//       strings: ["Skywalker", "Pamello", "Crystello", "Waterello"],
+//       typeSpeed: 150,
+//       backSpeed: 150,
+//       loop: true
+//   })
   
-  // let typed2 = new Typed('.typing2', {
-  //     strings: ["Developer", "Designer", "Freelancer"],
-  //     typeSpeed: 50,
-  //     backSpeed: 50,
-  //     loop: true
-});
