@@ -297,7 +297,7 @@ nav .nav-content-bottom .nav-links li {
 nav .nav-content-bottom .nav-links li a:is(:link, :active, :visited) {
   display: inline-block;
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   border-bottom: 2px solid transparent;
 }
 nav .nav-content-bottom .nav-links li a i {
@@ -368,7 +368,7 @@ nav .nav-links li:hover a i {
   top: 300%;
   left: 26%;
   transform: translateX(-50%);
-  width:150%;
+  width:155%;
   height: 350px;
   border-radius: 6px;
   visibility: hidden;
@@ -434,7 +434,7 @@ nav.sticky .nav-links .mega-drop-menu {
 }
 .mega-drop-menu .menu-content .col:first-child a {
   width: 140px;
-  font-size: 14px;
+  font-size: 15px;
   display: inline-block;
   margin: 0 0 2rem 1rem;
 }
@@ -473,7 +473,7 @@ nav.sticky .nav-links .mega-drop-menu {
 
 .mega-drop-menu .menu-content .col ul li a {
   display: inline-block;
-  font-size: 15px;
+  font-size: 13px;
 }
 .mega-drop-menu .menu-content .col ul li a:hover {
   color: #f00;
