@@ -326,10 +326,6 @@ nav .nav-links li:hover a i {
   transition: .2s ease;
 }
 
-.content-page {
-  width: 80%;
-  margin: 130px auto 1rem auto;
-}
 
 
 /* HERO SECTION */
@@ -717,7 +713,6 @@ section {
 footer {
   width: 100%;
   background: #f2f2f2;
-  background:  #233e59;
 }
 .footer-content {
   margin: auto;
@@ -741,7 +736,6 @@ footer {
 .footer-logo-box img {
   width: 95%;
   border: 1px solid #37a0ef;
-  border: 3px solid #233e59;
   border-radius: 8px;
   display: flex;
 }
@@ -779,13 +773,13 @@ footer {
 }
 .footer-info-section h4 {
   margin-bottom: 1rem;
-  color: #fff;
+  color: #222;
 }
 .footer-info-section a {
   font-size: 14px;
   line-height: 3;
   display: inline-block;
-  color: #fff;
+  color: #222;
 
 }
 .footer-info-section a:hover {
@@ -796,7 +790,6 @@ footer {
 .footer-right-reserved {
   width: 80%;
   background: #f2f2f2;
-  background:  #233e59;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -811,13 +804,12 @@ footer {
 .footer-right-reserved .contact-nums {
   font-size: 13px;
   color: #444;
-  color: #fff;
   margin-right: 1rem;
   padding: 2rem 0
 }
 footer .param {
   font-size: 13px;
-  color: #fff;
+  color: #222;
 }
 footer .param i {
   margin: 0 .5rem;
@@ -1183,4 +1175,250 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   align-items: center;
 }
 
+}
+
+
+.content-page {
+  width: 100%;
+  margin: 110px auto 0rem auto;
+}
+
+/* ABOUT PAGE */
+
+.about_us_tiles {
+
+}
+.about_us,
+.our_vission,
+.our_statement
+ {
+  height: auto;
+  display: flex;
+  align-items: center;
+
+
+
+}
+.about_us div,
+.our_vission div,
+.our_statement div
+{
+  width: 50%;
+  height: 400px;
+  padding: 4rem;
+
+  /* border: 3px solid #1098ad; */
+}
+.about_us div:nth-child(1) {
+  background: #eee;
+}
+
+.our_vission div:nth-child(1) {
+  background: #ced5da;
+}
+.our_vission div:nth-child(2) {
+  background: #eee;
+}
+.our_statement div:nth-child(1) {
+  background: #eee;
+}
+.our_statement div:nth-child(2) {
+  background: #ced5da;
+
+}
+
+
+
+
+.about_us div:nth-child(2) {
+  padding: 0;
+  object-fit:cover;
+
+
+  display: flex;
+
+}
+.about_us .header,
+.our_vission .header,
+.our_statement .header {
+  font-size: 45px;
+  color: #555;
+  position: relative;
+}
+.about_us_tiles span {
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background: #555;
+}
+
+.about_us p,
+.our_vission p,
+.our_statement p {
+  font-size: 20px;
+  color: #444;
+}
+
+.about_us div img {
+  width: 100%;
+}
+
+
+/* MANAGEMENT  */
+.management {
+  background: #f2f2f2;
+}
+.management_team {
+  display: flex;
+  align-items: center;
+  /* height: 450px; */
+  padding: 0 4rem;
+  /* margin-bottom: 2rem; */
+}
+.management_team .title {
+  font-size: 45px;
+
+}
+.management_team div {
+  width: 50%;
+  height: 100%;
+}
+.management_team div h3 {
+  font-size: 25px;
+}
+.management_team div p {
+  font-size: 20px;
+}
+.management_team div p i {
+  margin-left: 1rem;
+  display: inline-block;
+}
+.mgmt-image-box {
+  width: 100%;
+  height: 100%;
+
+}
+.management_team img {
+  width: 100%;
+  height: 100%;;
+}
+
+
+/* BACKGROUND MESSAGE */
+.background {
+  height: 500px;
+  background: #f9f9f9;
+}
+.background_message {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+.background_message h1 {
+  font-size: 45px;
+}
+.background_message p {
+  display: inline-block;
+  font-size: 15px;
+}
+.background_message p i {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.background_message .history {
+  width: 50%;
+}
+.production {
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+}
+.production span i {
+  font-size: 55px;
+  color: #aaa;
+}
+.production div {
+  margin-left: 2rem;
+}
+.production div h3 {
+  font-size: 25px;
+}
+
+
+
+
+/* OUR VALUES */
+.our_values {
+  display: flex;
+
+  padding: 0 4rem 2rem 4rem;
+
+  background: #f9f9f9;
+}
+.our_values div h1 {
+  font-size: 45px;
+}
+.our_values div {
+  width: 50%;
+  padding-top: 2.5rem !important;
+}
+.detail_values {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.detail_values div {
+  width: calc(50%);
+  padding: 10px 0 10px 16px;
+  height: 250px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  border: 5px solid #f9f9f9;
+}
+.detail_values div p {
+  font-size: 14px;
+  padding: 10px 15px 0 0px;
+}
+.detail_values div .values-text {
+  font-size: 25px;
+  color: #848f97;
+}
+
+
+/* READY TO WORK */
+.ready_to_work {
+
+  height: 450px;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: url(/assets/images/kitchen-3.jpg);
+   background-image:linear-gradient(to bottom, rgba(234, 233, 244, 0.801), transparent), url(/assets/images/kitchen-3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.ready_to_work h1 {
+  font-size: 75px;
+  color: #233e59;
+}
+.ready_to_work p {
+  font-size: 25px;
+}
+.ready_to_work .contact_us {
+  font-size: 19px;
+  width: 160px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  margin: 2rem 0;
+  background: #102851;
+  text-align: center;
+  color: #fff ;
+
+  border-radius: 50px;
 }
