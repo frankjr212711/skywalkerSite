@@ -1179,7 +1179,7 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 
 
 .content-page {
-  width: 80%;
+  width: 90%;
   margin: 110px auto 0rem auto;
 }
 
@@ -1210,21 +1210,22 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   /* border: 3px solid #1098ad; */
 }
 .about_us div:nth-child(1) {
-  background: #eee;
+  background: #f9f9f9;
 }
 
 .our_vission div:nth-child(1) {
-  background: #ced5da;
+  background: #f2f2f2;
 }
 .our_vission div:nth-child(2) {
-  background: #eee;
+  background: #f9f9f9;
+  /* border: 1px solid red; */
+
 }
 .our_statement div:nth-child(1) {
-  background: #eee;
+  background: #f9f9f9;
 }
 .our_statement div:nth-child(2) {
-  background: #ced5da;
-
+  background: #f2f2f2;
 }
 
 
@@ -1264,9 +1265,51 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 }
 
 
+
+/* BACKGROUND MESSAGE */
+.background {
+  height: 500px;
+  background: #ffe8cc;
+}
+.background_message {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+.background_message h1 {
+  font-size: 45px;
+}
+.background_message p {
+  display: inline-block;
+  font-size: 15px;
+}
+.background_message p i {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.background_message .history {
+  width: 50%;
+}
+.production {
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+}
+.production span i {
+  font-size: 55px;
+  color: #aaa;
+}
+.production div {
+  margin-left: 2rem;
+}
+.production div h3 {
+  font-size: 25px;
+}
+
+
 /* MANAGEMENT  */
 .management {
-  background: #f2f2f2;
+  background: #fff0f6;
 }
 .management_team {
   display: flex;
@@ -1303,46 +1346,6 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   height: 100%;;
 }
 
-
-/* BACKGROUND MESSAGE */
-.background {
-  height: 500px;
-  background: #f9f9f9;
-}
-.background_message {
-  display: flex;
-  justify-content: space-between;
-  padding: 3rem 4rem;
-}
-.background_message h1 {
-  font-size: 45px;
-}
-.background_message p {
-  display: inline-block;
-  font-size: 15px;
-}
-.background_message p i {
-  display: inline-block;
-  margin-left: 1rem;
-}
-.background_message .history {
-  width: 50%;
-}
-.production {
-  width: 100%;
-  margin: 2rem 0 2rem 0;
-  display: flex;
-}
-.production span i {
-  font-size: 55px;
-  color: #aaa;
-}
-.production div {
-  margin-left: 2rem;
-}
-.production div h3 {
-  font-size: 25px;
-}
 
 
 
