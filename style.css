@@ -1364,6 +1364,7 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 .our_values div {
   width: 50%;
   padding-top: 2.5rem !important;
+
 }
 .detail_values {
   display: flex;
@@ -1371,13 +1372,14 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   flex-wrap: wrap;
 }
 .detail_values div {
-  width: calc(50%);
+  width: calc(100% / 1);
   padding: 10px 0 10px 16px;
-  height: 250px;
+  height: 200px;
   background: #f9f9f9;
   border-radius: 8px;
-  border: 1px solid #e2e2e2;
-  border: 5px solid #f9f9f9;
+  margin: 5px;
+
+  border: 1px solid #ddd;
 }
 .detail_values div p {
   font-size: 14px;
