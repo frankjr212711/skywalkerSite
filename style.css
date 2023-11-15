@@ -1185,10 +1185,9 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 .our_vission,
 .our_statement
  {
-  height: auto;
+  height: 430px;
   display: flex;
   align-items: center;
-
 
 
 }
@@ -1197,7 +1196,7 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 .our_statement div
 {
   width: 50%;
-  height: 400px;
+  height: 100%;
   padding: 4rem;
 
   /* border: 3px solid #1098ad; */
