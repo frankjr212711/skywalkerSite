@@ -358,7 +358,7 @@ nav .nav-links li:hover a i {
 /* MEGA-DROP MENU STYLES */
 
  .nav-links .mega-drop-menu {
-  background: #f9f9f9;
+  background: #fff;
   /* box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, .1),
   1px 1px 3px 0 rgba(0, 0, 0, .1); */
   border: 1px solid #ddd;
@@ -405,6 +405,10 @@ nav.sticky .nav-links .mega-drop-menu {
   align-items: flex-start;
   justify-content: space-between;
   padding: 0 1.5rem;
+
+}
+.mega-drop-menu .menu-content .col:not(:first-child) {
+  border-left: 1px solid #eee;
 }
 .mega-drop-menu .menu-content .col:first-child {
   height: 350px;
@@ -412,6 +416,10 @@ nav.sticky .nav-links .mega-drop-menu {
   color: #222;
   border-radius: 6px 0px 0px 6px;
   background:linear-gradient(to right, #3b93e5, #83a0d1);
+  /* background: var(--oc-blue-8) */
+  background: url(/assets/images/image-4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .mega-drop-menu .menu-content .col:first-child .col-btn {
 
