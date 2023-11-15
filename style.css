@@ -722,12 +722,12 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem 0;
   border-bottom: 1px solid #ddd;
+  padding-top: 2rem;
 }
 .footer-logo-box {
-  /* width: 50%; */
-  height: 77%;
+  width: 50%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -764,7 +764,7 @@ footer {
   padding: 2rem 0 1rem 0rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 
 
@@ -774,18 +774,18 @@ footer {
 .footer-info-section h4 {
   margin-bottom: 1rem;
   color: #222;
+  font-size: 25px;
+  text-align: left;
 }
 .footer-info-section a {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 3;
   display: inline-block;
   color: #222;
 
 }
 .footer-info-section a:hover {
-  /* color: red; */
-  font-weight: 600;
-  transition: .3s ease;
+  font-weight: 500;
 }
 .footer-right-reserved {
   width: 80%;
@@ -1114,13 +1114,6 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
     transition: .3s ease;
   }
 
-
-
-
-  .footer-content {
-    padding-top: 2rem;
-    flex-direction: column;
-  }
   .nav-content-bottom .menu-btn {
     width: 45px;
     height: 45px;
