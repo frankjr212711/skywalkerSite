@@ -888,8 +888,8 @@ footer .param i {
 .about_us .header,
 .our_vission .header,
 .our_statement .header {
-  font-size: 45px;
-  font-weight: 500;
+  font-size: 40px;
+  /* font-weight: 500; */
   color: #555;
   position: relative;
 }
@@ -903,7 +903,7 @@ footer .param i {
 .about_us p,
 .our_vission p,
 .our_statement p {
-  font-size: 16px;
+  font-size: 18px;
   color: #444;
 }
 
@@ -1000,6 +1000,7 @@ footer .param i {
 .our_values {
   display: flex;
 
+
   padding: 0 4rem 2rem 4rem;
 
   background: #f9f9f9;
@@ -1014,16 +1015,19 @@ footer .param i {
 }
 .detail_values {
   display: flex;
-
   flex-wrap: wrap;
+
 }
 .detail_values div {
   width: calc(100% / 1);
   padding: 10px 0 10px 16px;
-  height: 200px;
+  /* height: 200px; */
   background: #f9f9f9;
   border-radius: 8px;
   margin: 5px;
+
+  display: flex;
+  flex-direction: column;
 
   border: 1px solid #ddd;
 }
@@ -1377,15 +1381,74 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
 
 /* RESPONSE 768px */
 @media (max-width: 768px) {
+  .about_us_tiles {
+
+  }
+  .about_us,
+  .our_vission,
+  .our_statement,
+  .management_team,
+  .our_values,
+  .background_message
+   {
+    /* height: 450px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about_us div,
+  .our_vission div,
+  .our_statement div,
+  .management_team div,
+  .our_values div,
+  .background_message div
+  {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0 2rem 3rem;
+  
+    /* border: 3px solid #1098ad; */
+  }
+
+  .background_message .history   {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+
+    padding: 0;
+  }
+  .background_message .history .production {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .background_message .history .production div {
+    width: 100%;
+    padding: 0;
+  }
+  .detail_values div {
+    width: 100%;
+  }
+
   .footer-info-section a {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 3;
   
     display: inline-block;
-    color: #fff;
+    color: #222;
   
   }
+  .footer-info-section {
+    flex-direction: column;
+  }
+  .partners-logo-box {
+    display: none !important;
   
+    border: 1px solid red;
+  }
   .nav-content .nav-content-bottom .logo-box {
     /* transform: translate(-17px, 30px) !important; */
   }
