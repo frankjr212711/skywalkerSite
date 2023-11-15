@@ -824,6 +824,309 @@ footer .param i {
 }
 
 
+
+.content-page {
+  width: 90%;
+  margin: 110px auto 0rem auto;
+}
+
+/* ABOUT PAGE */
+
+.about_us_tiles {
+
+}
+.about_us,
+.our_vission,
+.our_statement
+ {
+  /* height: 450px; */
+  display: flex;
+  align-items: center;
+
+
+}
+.about_us div,
+.our_vission div,
+.our_statement div
+{
+  width: 50%;
+  height: 100%;
+  padding: 4rem;
+
+  /* border: 3px solid #1098ad; */
+}
+.about_us div:nth-child(1) {
+  /* background: #f9f9f9; */
+}
+
+.our_vission div:nth-child(1) {
+  background: #f2f2f2;
+}
+.our_vission div:nth-child(2) {
+  background: #f9f9f9;
+  /* border: 1px solid red; */
+
+}
+.our_statement div:nth-child(1) {
+  background: #f9f9f9;
+}
+.our_statement div:nth-child(2) {
+  background: #f2f2f2;
+}
+
+
+
+
+.about_us div:nth-child(2) {
+  padding: 0;
+  object-fit:cover;
+
+
+  display: flex;
+
+}
+.about_us .header,
+.our_vission .header,
+.our_statement .header {
+  font-size: 45px;
+  font-weight: 500;
+  color: #555;
+  position: relative;
+}
+.about_us_tiles span {
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background: #555;
+}
+
+.about_us p,
+.our_vission p,
+.our_statement p {
+  font-size: 16px;
+  color: #444;
+}
+
+.about_us div img {
+  width: 100%;
+}
+
+
+
+/* BACKGROUND MESSAGE */
+.background {
+  height: 500px;
+  background: #ffe8cc;
+}
+.background_message {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+.background_message h1 {
+  font-size: 45px;
+}
+.background_message p {
+  display: inline-block;
+  font-size: 15px;
+}
+.background_message p i {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.background_message .history {
+  width: 50%;
+}
+.production {
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+}
+.production span i {
+  font-size: 55px;
+  color: #aaa;
+}
+.production div {
+  margin-left: 2rem;
+}
+.production div h3 {
+  font-size: 25px;
+}
+
+
+/* MANAGEMENT  */
+.management {
+  background: #fff0f6;
+}
+.management_team {
+  display: flex;
+  align-items: center;
+  /* height: 450px; */
+  padding: 0 4rem;
+  /* margin-bottom: 2rem; */
+}
+.management_team .title {
+  font-size: 45px;
+
+}
+.management_team div {
+  width: 50%;
+  height: 100%;
+}
+.management_team div h3 {
+  font-size: 25px;
+}
+.management_team div p {
+  font-size: 16px;
+}
+.management_team div p i {
+  margin-left: 1rem;
+  display: inline-block;
+}
+.mgmt-image-box {
+  width: 100%;
+  height: 100%;
+
+}
+.management_team img {
+  width: 100%;
+  height: 100%;;
+}
+
+
+
+
+
+/* OUR VALUES */
+.our_values {
+  display: flex;
+
+  padding: 0 4rem 2rem 4rem;
+
+  background: #f9f9f9;
+}
+.our_values div h1 {
+  font-size: 45px;
+}
+.our_values div {
+  width: 50%;
+  padding-top: 2.5rem !important;
+
+}
+.detail_values {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.detail_values div {
+  width: calc(100% / 1);
+  padding: 10px 0 10px 16px;
+  height: 200px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 5px;
+
+  border: 1px solid #ddd;
+}
+.detail_values div p {
+  font-size: 14px;
+  padding: 10px 15px 0 0px;
+}
+.detail_values div .values-text {
+  font-size: 25px;
+  color: #848f97;
+}
+
+
+/* READY TO WORK */
+.ready_to_work {
+
+  height: 450px;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: url(/assets/images/kitchen-3.jpg);
+   background-image:linear-gradient(to bottom, rgba(234, 233, 244, 0.801), transparent), url(/assets/images/kitchen-3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.ready_to_work h1 {
+  font-size: 75px;
+  color: #233e59;
+}
+.ready_to_work p {
+  font-size: 25px;
+}
+.ready_to_work .contact_us {
+  font-size: 19px;
+  width: 160px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  margin: 2rem 0;
+  background: #102851;
+  text-align: center;
+  color: #fff ;
+
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES RESPONSIVE */
 
 @media (max-width: 992px) {
@@ -1176,254 +1479,4 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   align-items: center;
 }
 
-}
-
-
-.content-page {
-  width: 90%;
-  margin: 110px auto 0rem auto;
-}
-
-/* ABOUT PAGE */
-
-.about_us_tiles {
-
-}
-.about_us,
-.our_vission,
-.our_statement
- {
-  height: 450px;
-  display: flex;
-  align-items: center;
-
-
-}
-.about_us div,
-.our_vission div,
-.our_statement div
-{
-  width: 50%;
-  height: 100%;
-  padding: 4rem;
-
-  /* border: 3px solid #1098ad; */
-}
-.about_us div:nth-child(1) {
-  background: #f9f9f9;
-}
-
-.our_vission div:nth-child(1) {
-  background: #f2f2f2;
-}
-.our_vission div:nth-child(2) {
-  background: #f9f9f9;
-  /* border: 1px solid red; */
-
-}
-.our_statement div:nth-child(1) {
-  background: #f9f9f9;
-}
-.our_statement div:nth-child(2) {
-  background: #f2f2f2;
-}
-
-
-
-
-.about_us div:nth-child(2) {
-  padding: 0;
-  object-fit:cover;
-
-
-  display: flex;
-
-}
-.about_us .header,
-.our_vission .header,
-.our_statement .header {
-  font-size: 45px;
-  color: #555;
-  position: relative;
-}
-.about_us_tiles span {
-  display: inline-block;
-  width: 50px;
-  height: 5px;
-  background: #555;
-}
-
-.about_us p,
-.our_vission p,
-.our_statement p {
-  font-size: 20px;
-  color: #444;
-}
-
-.about_us div img {
-  width: 100%;
-}
-
-
-
-/* BACKGROUND MESSAGE */
-.background {
-  height: 500px;
-  background: #ffe8cc;
-}
-.background_message {
-  display: flex;
-  justify-content: space-between;
-  padding: 3rem 4rem;
-}
-.background_message h1 {
-  font-size: 45px;
-}
-.background_message p {
-  display: inline-block;
-  font-size: 15px;
-}
-.background_message p i {
-  display: inline-block;
-  margin-left: 1rem;
-}
-.background_message .history {
-  width: 50%;
-}
-.production {
-  width: 100%;
-  margin: 2rem 0 2rem 0;
-  display: flex;
-}
-.production span i {
-  font-size: 55px;
-  color: #aaa;
-}
-.production div {
-  margin-left: 2rem;
-}
-.production div h3 {
-  font-size: 25px;
-}
-
-
-/* MANAGEMENT  */
-.management {
-  background: #fff0f6;
-}
-.management_team {
-  display: flex;
-  align-items: center;
-  /* height: 450px; */
-  padding: 0 4rem;
-  /* margin-bottom: 2rem; */
-}
-.management_team .title {
-  font-size: 45px;
-
-}
-.management_team div {
-  width: 50%;
-  height: 100%;
-}
-.management_team div h3 {
-  font-size: 25px;
-}
-.management_team div p {
-  font-size: 20px;
-}
-.management_team div p i {
-  margin-left: 1rem;
-  display: inline-block;
-}
-.mgmt-image-box {
-  width: 100%;
-  height: 100%;
-
-}
-.management_team img {
-  width: 100%;
-  height: 100%;;
-}
-
-
-
-
-
-/* OUR VALUES */
-.our_values {
-  display: flex;
-
-  padding: 0 4rem 2rem 4rem;
-
-  background: #f9f9f9;
-}
-.our_values div h1 {
-  font-size: 45px;
-}
-.our_values div {
-  width: 50%;
-  padding-top: 2.5rem !important;
-
-}
-.detail_values {
-  display: flex;
-
-  flex-wrap: wrap;
-}
-.detail_values div {
-  width: calc(100% / 1);
-  padding: 10px 0 10px 16px;
-  height: 200px;
-  background: #f9f9f9;
-  border-radius: 8px;
-  margin: 5px;
-
-  border: 1px solid #ddd;
-}
-.detail_values div p {
-  font-size: 14px;
-  padding: 10px 15px 0 0px;
-}
-.detail_values div .values-text {
-  font-size: 25px;
-  color: #848f97;
-}
-
-
-/* READY TO WORK */
-.ready_to_work {
-
-  height: 450px;
-  padding: 0 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  background: url(/assets/images/kitchen-3.jpg);
-   background-image:linear-gradient(to bottom, rgba(234, 233, 244, 0.801), transparent), url(/assets/images/kitchen-3.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.ready_to_work h1 {
-  font-size: 75px;
-  color: #233e59;
-}
-.ready_to_work p {
-  font-size: 25px;
-}
-.ready_to_work .contact_us {
-  font-size: 19px;
-  width: 160px;
-  height: 45px;
-  line-height: 45px;
-  display: inline-block;
-  margin: 2rem 0;
-  background: #102851;
-  text-align: center;
-  color: #fff ;
-
-  border-radius: 50px;
 }
