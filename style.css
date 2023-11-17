@@ -1003,25 +1003,27 @@ footer .param p i {
 .ready_to_work h1 {
   font-size: 75px;
   color: #233e59;
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .8);
 }
 .ready_to_work p {
   font-size: 25px;
   text-align: center;
 }
 .ready_to_work .contact_us {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
-  width: 230px;
+  line-height: 1.4em;
+
   display: inline-block;
-  margin: 2rem 0;
-  padding: 1rem;
+  margin: 25px 0;
+  padding: 15px 60px;
   background: #102851;
   border: 3px solid transparent;
   text-align: center;
   color: #fff ;
 
   border-radius: 50px;
+  transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275)
 }
 
 .ready_to_work .contact_us:hover {
