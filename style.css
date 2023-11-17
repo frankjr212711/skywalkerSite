@@ -995,7 +995,7 @@ footer .param p i {
   align-items: center;
 
   background: url(/assets/images/furniture-2.jpg);
-   background-image:linear-gradient(to bottom, rgba(234, 233, 244, 0.801), transparent), url(/assets/images/kitchen-3.jpg);
+   background-image:linear-gradient(to bottom, rgba(138, 128, 249, 0.801), transparent), url(/assets/images/img-6.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -1003,22 +1003,33 @@ footer .param p i {
 .ready_to_work h1 {
   font-size: 75px;
   color: #233e59;
+  color: rgba(255, 255, 255, .7);
 }
 .ready_to_work p {
   font-size: 25px;
+  text-align: center;
 }
 .ready_to_work .contact_us {
-  font-size: 19px;
-  width: 160px;
-  height: 45px;
-  line-height: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 230px;
   display: inline-block;
   margin: 2rem 0;
+  padding: 1rem;
   background: #102851;
+  border: 3px solid transparent;
   text-align: center;
   color: #fff ;
 
   border-radius: 50px;
+}
+
+.ready_to_work .contact_us:hover {
+  transform: scaleX(1.05);
+  border-color: white;
+  background: transparent;
+
+
 }
 
 
