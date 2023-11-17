@@ -41,23 +41,13 @@ scrollBtn.addEventListener('click', function() {
   document.querySelector('html').scrollTop = 0
 });
 
-const activePage = window.location.pathname;
+const activePage = window.location.href;
 
 
   links.forEach(link => {
     if(link.href.includes(`${activePage}`)) {
       link.classList.add('active')
-
-     
     }
-  })
-
-  menuLinks.forEach(link => {
-    link.addEventListener('click', function() {
-      link.querySelectorAll('a').remove('active')
-      link.classList.add('open')
-   
-    })
   })
 
 

@@ -359,8 +359,6 @@ nav .nav-links li:hover a i {
 
  .nav-links .mega-drop-menu {
   background: #fff;
-  /* background: var(--oc-gray-0); */
-  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .3);
   border: 1px solid  var(--oc-gray-4);
   position: absolute; 
   top: 300%;
@@ -368,7 +366,6 @@ nav .nav-links li:hover a i {
   transform: translateX(-50%);
   width: 195%;
   height: 350px;
-  border-radius: 6px;
   visibility: hidden;
   opacity: 0;
   display: flex;
@@ -414,12 +411,8 @@ nav.sticky .nav-links .mega-drop-menu {
   height: 350px;
   width: 250px;
   color: #222;
-  border-radius: 6px 0px 0px 6px;
-  background:linear-gradient(to right, #3b93e5, #83a0d1);
-  /* background: var(--oc-blue-8) */
-  /* background: url(/assets/images/image-4.jpg); */
-  background: var(--oc-blue-3);
-  border: 1px solid var(--oc-blue-3);
+  background: var(--oc-yellow-0);
+  border: 1px solid var(--oc-yellow-0);
   background-size: cover;
   background-position: center;
 }
@@ -522,29 +515,30 @@ nav.sticky .nav-links li:hover .mega-drop-menu {
   left: 70%;
   width: 35%;
   height: auto;
+  padding: .25rem;
   background: #fff;
-  padding: 1rem 0 1rem 1rem;
   text-align: center;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .3);
-  border: 1px solid  var(--oc-gray-4);
-  border-radius: 3px;
   visibility: hidden; 
   opacity: 0;
   transition: .2s ease;
 }
-.nav-links li .drop-menu {
-  text-align: left;
-}
+
 .nav-links li .drop-menu li {
+  display: block;
+  text-align: left;
   margin-left: 0 !important;
   line-height: 2.5;
 }
 .nav-links li .drop-menu li a {
   font-size: 15px !important;
+  display: inline-block;
+  width: 100%;
+  padding: 0 .5rem;
 }
 
 .drop-menu li a i:first-child {
-  margin-right: 1.1rem;
+  /* margin-right: 1.1rem; */
 }
 .nav-links li:hover .drop-menu {
   top: 150%;
@@ -558,7 +552,7 @@ nav.sticky .nav-links li:hover .drop-menu {
   top: 150%;
 }
 .nav-links li .drop-menu li a:hover {
-  color: #f00;
+  background: var(--oc-red-1);
 }
 .nav-links li .drop-menu li a:hover i {
   transform: rotateX(360deg)
@@ -993,9 +987,15 @@ footer .param p i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  background: url(/assets/images/furniture-2.jpg);
-   background-image:linear-gradient(to bottom, rgba(138, 128, 249, 0.801), transparent), url(/assets/images/img-6.jpg);
+}
+.home {
+   background-image:linear-gradient(to bottom, rgba(138, 128, 249, 0.801), transparent), url(/assets/images/img-3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.aboutt {
+  background-image:linear-gradient(to bottom, rgba(138, 128, 249, 0.801), transparent), url(/assets/images/img-6.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
