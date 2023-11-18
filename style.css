@@ -2,6 +2,7 @@
   
   --oc-white: #fff;
   --oc-black: #000;
+
   --oc-gray-0: #f8f9fa;
   --oc-gray-1: #f1f3f5;
   --oc-gray-2: #e9ecef;
@@ -224,7 +225,7 @@ nav {
   z-index: 999;
 }
 nav .nav-content {
-  width: 90%;
+  width: 70%;
   height: auto;
   margin: auto;
 }
@@ -359,18 +360,21 @@ nav .nav-links li:hover a i {
 
  .nav-links .mega-drop-menu {
   background: #fff;
-  border: 1px solid  var(--oc-gray-4);
+  border: 1px solid #aaa;
   position: absolute; 
   top: 300%;
-  left: 10%;
+  left: 15%;
   transform: translateX(-50%);
-  width: 195%;
-  height: 350px;
-  visibility: hidden;
-  opacity: 0;
+  width: 160%;
+  height: 310px;
+  border-radius: 8px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
+  visibility: hidden;
+  opacity: 0;
   transition: .2s ease;
 } 
 
@@ -392,8 +396,6 @@ nav.sticky .nav-links .mega-drop-menu {
   justify-content: center;
 }
 
-
-
 .mega-drop-menu .menu-content .col {
   width: calc(25%);
   height: 100%;
@@ -407,23 +409,20 @@ nav.sticky .nav-links .mega-drop-menu {
 .mega-drop-menu .menu-content .col:not(:first-child) {
   border-left: 1px solid #eee;
 }
-.mega-drop-menu .menu-content .col:first-child {
+/* .mega-drop-menu .menu-content .col:first-child {
   height: 350px;
   width: 250px;
   color: #222;
-  background: var(--oc-yellow-0);
-  border: 1px solid var(--oc-yellow-0);
+  background: var(--oc-blue-9);
+  border: 1px solid var(--oc-blue-9);
   background-size: cover;
+  border-radius: 8px 0px 0px 8px;
   background-position: center;
-}
-.mega-drop-menu .menu-content .col:first-child .col-btn {
-
-}
+} */
 .mega-drop-menu .menu-content .col:first-child .col-btn:hover {
   border-color: #fff !important;
   color: #fff !important;
-  transform: scale(1.08)
-
+  transform: scale(1.08);
 }
 .mega-drop-menu .menu-content .col:first-child h1 {
   font-size: 35px;
@@ -443,7 +442,7 @@ nav.sticky .nav-links .mega-drop-menu {
   margin: 0 0 2rem 1rem;
 }
 .mega-drop-menu .menu-content .col .header {
-  font-size: 19px;
+  font-size: 17px;
 }
 .mega-drop-menu .menu-content .col ul {
   padding: none !important;
@@ -475,20 +474,18 @@ nav.sticky .nav-links .mega-drop-menu {
   display: block;
 }
 
-.mega-drop-menu .menu-content .col ul li a {
+.mega-drop-menu .menu-content .col ul li {
   display: inline-block;
-  font-size: 15px;
+  font-size: 13px;
 }
-.mega-drop-menu .menu-content .col ul li a:hover {
+.mega-drop-menu .menu-content .col ul li:hover {
   color: #f00;
 }
 
-.mega-drop-menu .menu-content .col ul li a i {
+.mega-drop-menu .menu-content .col ul li {
   margin-right: 1rem;
 }
-.mega-drop-menu .menu-content .col ul li a:hover i {
-  transform: rotateX(360deg)
-}
+
 nav .menu-content .col .col-btn {
   width: 130px;
   height: 42px;
@@ -513,13 +510,13 @@ nav.sticky .nav-links li:hover .mega-drop-menu {
   position: absolute;
   top: 300%;
   left: 70%;
-  width: 35%;
+  width: 30%;
   height: auto;
   padding: .25rem;
   background: #fff;
-  text-align: center;
-  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .3);
-  visibility: hidden; 
+
+  border: 1px solid var(--oc-gray-2);
+  visibility: hidden;
   opacity: 0;
   transition: .2s ease;
 }
@@ -536,10 +533,6 @@ nav.sticky .nav-links li:hover .mega-drop-menu {
   width: 100%;
   padding: 0 .5rem;
 }
-
-.drop-menu li a i:first-child {
-  /* margin-right: 1.1rem; */
-}
 .nav-links li:hover .drop-menu {
   top: 150%;
   visibility: visible;
@@ -555,7 +548,7 @@ nav.sticky .nav-links li:hover .drop-menu {
   background: var(--oc-red-1);
 }
 .nav-links li .drop-menu li a:hover i {
-  transform: rotateX(360deg)
+  transform: rotateX(360deg);
 }
 
 
@@ -567,9 +560,6 @@ section {
   border: 1px solid transparent;
   /* border: 1px solid red; */
 }
-
-
-
 
 
 /* BG VIDEO STYLES  */
@@ -598,7 +588,8 @@ section {
 /* HERO TEXT BOX STYLES  */
 .text-box {
   margin: auto;
-  width: 80%;
+  width: 70%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -659,7 +650,7 @@ section {
 /* SECTION CONTENT STYLES */
 
  .section-content {
-  width: 90%;
+  width: 70%;
   margin: 65px auto;
   display: flex;
   align-items: center;
