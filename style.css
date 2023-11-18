@@ -225,7 +225,7 @@ nav {
   z-index: 999;
 }
 nav .nav-content {
-  width: 70%;
+  width: 65%;
   height: auto;
   margin: auto;
 }
@@ -588,7 +588,7 @@ section {
 /* HERO TEXT BOX STYLES  */
 .text-box {
   margin: auto;
-  width: 70%;
+  width: 65%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -650,7 +650,7 @@ section {
 /* SECTION CONTENT STYLES */
 
  .section-content {
-  width: 70%;
+  width: 65%;
   margin: 65px auto;
   display: flex;
   align-items: center;
