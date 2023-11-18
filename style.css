@@ -643,14 +643,23 @@ section {
 #gjr,
 #skywalker {
   background: var(--oc-gray-0);
+  background: #fff;
 }
 
 
 
 /* SECTION CONTENT STYLES */
-
+@media (max-width: 1200px) {
+  .section-content {
+    width: 65%;
+    margin: 65px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
  .section-content {
-  width: 65%;
+  width: 70%;
   margin: 65px auto;
   display: flex;
   align-items: center;
