@@ -550,17 +550,25 @@ nav.sticky .nav-links li:hover .drop-menu {
 
 
 
-/* GENERAL SECTION STYLES */
 
-section {
-  margin: auto;
-  border: 1px solid transparent;
-  /* border: 1px solid red; */
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* BG VIDEO STYLES  */
-
+/* 
 .back-video {
   position: absolute;
   right: 0;
@@ -578,12 +586,12 @@ section {
     width: auto;
     height: 100%;
   }
-}
+} */
 
 
 
 /* HERO TEXT BOX STYLES  */
-.text-box {
+/* .text-box {
   margin: auto;
   width: 90%;
   margin: auto;
@@ -627,27 +635,42 @@ section {
 }
 .quote-text h3 {
   display: inline;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GENERAL SECTION STYLES */
+
+section {
+  margin: auto;
+  border: 1px solid transparent;
+  /* border: 1px solid red; */
+}
+
+.section-content {
+  margin: 130px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid red;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* LIBEREX SECTION STYLES */
+
 #liberex {
   background: #f2f2f2 !important;
   /* margin-bottom: 2rem; */
@@ -655,31 +678,13 @@ section {
 
 
 /* GJR SECTION STYLES */
+
 #gjr,
 #skywalker {
   background: var(--oc-gray-0);
   background: #fff;
 }
 
-
-
-/* SECTION CONTENT STYLES */
-@media (max-width: 1200px) {
-  .section-content {
-    width: 65%;
-    margin: 65px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
- .section-content {
-  width: 90%;
-  margin: 130px auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .section-text-container {
  width: calc(50% - 30px);
 }
@@ -721,6 +726,8 @@ section {
   border-radius: 6px;
   display: flex;
 }
+
+
 .section-image-container .image-box img {
   width: 100%;
   border-radius: 4px;
@@ -993,7 +1000,7 @@ footer .param p i {
 
 
 /* READY TO WORK */
-.ready_to_work {
+.ready-to-order {
   height: 450px;
   padding: 0 4rem;
   display: flex;
@@ -1013,16 +1020,16 @@ footer .param p i {
   background-attachment: fixed;
   background-size: cover;
 }
-.ready_to_work h1 {
+.ready-to-order h1 {
   font-size: 75px;
   color: #233e59;
   color: rgba(255, 255, 255, .8);
 }
-.ready_to_work p {
+.ready-to-order p {
   font-size: 25px;
   text-align: center;
 }
-.ready_to_work .contact_us {
+.ready-to-work .contact-us-btn {
   font-size: 17px;
   font-weight: 600;
   line-height: 1.4em;
@@ -1036,7 +1043,7 @@ footer .param p i {
   border-radius: 50px;
   /* transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275) */
 }
-.ready_to_work .contact_us:hover {
+.ready-to-order .contact-us-btn:hover {
   /* transform: scaleX(1.05); */
   /* border-color: white; */
   /* background: transparent; */
@@ -1661,7 +1668,7 @@ nav.sticky .nav-content .nav-content-top .contact-nums {
   .section-text-container {
     width: 35%;
   }
-  .section-text-container .text {
+  .section-text-container .title {
     font-size: 35px;
   }
 } 
