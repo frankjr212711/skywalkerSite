@@ -1,0 +1,184 @@
+.lib-content {
+  margin-top: 60px;
+  /* padding: 3rem 0 1rem 0 ; */
+  width: 100%;
+  background: #f1f1f1;
+  font-family: "Poppins";
+}
+.lib-content-wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+.lib-banner {
+  width: 100%;
+  height: 80px;
+  background: rgb(14, 62, 155);
+}
+.lib-banner-wrap {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.main-banner {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-banner .products a {
+  display: inline-block;
+  color: whitesmoke;
+  margin: 1rem 0 0.25rem 0;
+  padding: 0 0 0.25rem 0;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.main-banner .products a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.lib-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  position: relative;
+}
+.lib-logo h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+.lib-logo p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  top: 75%;
+}
+.lib-main nav li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.lib-main nav li::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lib-main nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.lib-main {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+}
+.expand-aside nav p {
+  background: rgb(14, 62, 155);
+  background: #bdd4e0;
+  color: #424242;
+  padding: .25rem 0 .25rem .2rem;
+}
+
+
+
+aside ul li p:first-child {
+  background: rgb(14, 62, 155);
+  background: #bdd4e0;
+  /* color: #fff; */
+  padding: .25rem 0 .25rem .2rem;
+}
+
+.active {
+  display: block;
+}
+.gone {
+  display: none;
+}
+
+@media  screen and (max-width: 768px) {
+  .lib-content {
+    margin-top: 80px;
+  }
+  .main-banner {
+   flex-direction: column;
+  }
+  .lib-logo h1 {
+    color: #fff;
+    font-size: 2.2rem;
+  }
+  .lib-logo p {
+    font-size: 10px;
+    top: 75%;
+  }
+  .main-banner .products a {
+    margin: 0;
+    padding: 0;
+  }
+  .lib-main p {
+    margin: .25rem 0;
+  }
+  .lib-main {
+    margin-top: 1rem;
+    padding-top: .5rem;
+  }
+  .lib-main nav {
+    grid-column: span 5;
+    border-right: none;
+    height: inherit;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    
+  }
+  .lib-main nav li {
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .expand-aside {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  .lib-main nav li::before {
+    display: none;
+  }
+  .lib-main article {
+    grid-column: span 6;
+    margin-bottom: 1rem;
+    padding: 0 0 1rem 0;
+  }
+  .lib-main article h2 {
+    margin: 0;
+    padding: 0;
+
+  }
+  .lib-main article img {
+    margin: 1rem 0;
+  };
+  header h1 {
+    font-size: 2.5rem;
+  }
+  .lib-main aside {
+    grid-column: span 6;
+    padding-left: 0rem;
+    border-left: none;
+
+  }
+
+  aside ul li span {
+    font-size: 16px;
+  }
+}
