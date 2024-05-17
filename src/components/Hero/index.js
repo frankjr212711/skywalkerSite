@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Styles.css";
 import {Link } from 'react-router-dom';
-import Video from "../../videos/video-1.mp4";
+import Video from "../../videos/video-3.mp4";
 
 export const Hero = () => {
   return (
