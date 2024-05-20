@@ -292,7 +292,7 @@ const Content = () => {
           
               <article className={current === 2 ? "active" : 'gone'}>
                 <h2>TV Units</h2>
-                <img src="/images/gjr-img-03.jpg" alt="sachet_img" />
+                <img src="/images/gjr-img-05.jpg" alt="sachet_img" />
                 <p>
                   Lorem ipsum dolor siti amet consectetur adipisicing elit,
                   Dignissiomos similique minima tempora corrupti neque eos
@@ -361,7 +361,7 @@ const Content = () => {
            
             <article className={current === 3 ? "active" : 'gone'}>
                 <h2>Vanity Units</h2>
-                <img src="/images/gjr-img-02.jpg" alt="sachet_img" />
+                <img src="/images/gjr-img-06.jpg" alt="sachet_img" />
                 <p>
                   Lorem ipsum dolor siti amet consectetur adipisicing elit,
                   Dignissiomos similique minima tempora corrupti neque eos
@@ -428,7 +428,7 @@ const Content = () => {
 
               <article className={current === 4 ? "active" : 'gone'}>
                 <h2>Road Construction</h2>
-                <img src="/images/gjr-img-03.jpg" alt="sachet_img" />
+                <img src="/images/gjr-img-07.jpg" alt="sachet_img" />
                 <p>
                   Lorem ipsum dolor siti amet consectetur adipisicing elit,
                   Dignissiomos similique minima tempora corrupti neque eos
@@ -496,7 +496,7 @@ const Content = () => {
 
               <article className={current === 5 ? "active" : 'gone'}>
                 <h2>Building Construction</h2>
-                <img src="/images/gjr-img-02.jpg" alt="sachet_img" />
+                <img src="/images/gjr-img-08.jpg" alt="sachet_img" />
                 <p>
                   Lorem ipsum dolor siti amet consectetur adipisicing elit,
                   Dignissiomos similique minima tempora corrupti neque eos
@@ -563,7 +563,7 @@ const Content = () => {
 
               <article className={current === 6 ? "active" : 'gone'}>
                 <h2>Plumbing Works</h2>
-                <img src="/images/gjr-img-03.jpg" alt="sachet_img" />
+                <img src="/images/gjr-img-09.jpg" alt="sachet_img" />
                 <p>
                   Lorem ipsum dolor siti amet consectetur adipisicing elit,
                   Dignissiomos similique minima tempora corrupti neque eos
@@ -628,7 +628,7 @@ const Content = () => {
 
               <article className={current === 7 ? "active" : 'gone'}>
                 <h2>Janitorial Works</h2>
-                <img src="/images/gjr-img-03.jpg" alt="sachet_img" />
+                <img src="/images/gjr-img-10.jpg" alt="sachet_img" />
                 <p>
                   Lorem ipsum dolor siti amet consectetur adipisicing elit,
                   Dignissiomos similique minima tempora corrupti neque eos
@@ -693,7 +693,7 @@ const Content = () => {
 
               <article className={current === 8 ? "active" : 'gone'}>
                 <h2>General Merchant</h2>
-                <img src="/images/gjr-img-03.jpg" alt="sachet_img" />
+                <img src="/images/gjr-img-11.jpg" alt="sachet_img" />
                 <p>
                   Lorem ipsum dolor siti amet consectetur adipisicing elit,
                   Dignissiomos similique minima tempora corrupti neque eos

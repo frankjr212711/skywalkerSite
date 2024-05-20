@@ -81,7 +81,7 @@ const Content = () => {
 
             <article className={current === 0 ? "active" : "gone"}>
               <h2>Pamello</h2>
-              <img src="/images/lib-img-pam-01.jpg" alt="sachet_img" />
+              <img src="/images/lib-pamello.webp" alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -146,7 +146,7 @@ const Content = () => {
 
             <article className={current === 1 ? "active" : "gone"}>
               <h2>Waterello</h2>
-              <img src="/images/img-pam-01" alt="sachet_img" />
+              <img src="/images/lib-waterello.webp" alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -211,7 +211,7 @@ const Content = () => {
 
             <article className={current === 2 ? "active" : "gone"}>
               <h2>Crystello</h2>
-              <img src="/images/img-pam-01" alt="sachet_img" />
+              <img src="/images/lib-crystello.jpg" alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -276,7 +276,7 @@ const Content = () => {
 
             <article className={current === 3 ? "active" : "gone"}>
               <h2>Ritello</h2>
-                <img src="/images/ritello.jpg" alt="sachet_img" />
+                <img src="/images/lib-ritello.jpg" alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum

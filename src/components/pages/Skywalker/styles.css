@@ -153,13 +153,16 @@
 
 article {
   grid-column: span 4;
+
 }
+
 article h2 {
   padding: 0;
   margin-bottom: 0.5rem;
 }
 article img {
   width: 100%;
+  height: inherit;
 }
 aside {
   padding-left: 1rem;

@@ -211,7 +211,7 @@ const Content = () => {
         
               <article className={current === 2 ? "active" : 'gone'} >
                   <h2>Dispenser Refridgerators</h2>
-                  <img src="/images/sky-img-05.jpg" alt="sachet_img" />
+                  <img src="/images/dispense-1.jpg" alt="sachet_img" />
                   <p>
                     Lorem ipsum dolor siti amet consectetur adipisicing elit,
                     Dignissiomos similique minima tempora corrupti neque eos
