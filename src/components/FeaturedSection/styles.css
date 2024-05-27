@@ -86,11 +86,11 @@
   width: 101%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .featured-section {
     padding: 0.5rem;
   }
   .featured-card {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
   }
 }
