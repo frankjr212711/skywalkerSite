@@ -4,7 +4,7 @@ import { MainBar } from "../MainBar/index";
 import { FaPlus, FaLocation, FaPhone } from "react-icons/fa";
 import { ImPhoneHangUp } from "react-icons/im";
 import { GoMail, GoLocation } from "react-icons/go";
-import "./styles.css";
+import "./Styles.css";
 
 export const HeadeR = () => {
   const [click, setClick] = useState(false);

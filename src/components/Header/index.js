@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./styles.css";
+import "./Styles.css";
 
 import { MainBar } from "../MainBar/index";
 import { FaLocation, FaPhone } from "react-icons/fa";
@@ -12,9 +12,8 @@ export const Header = () => {
   return (
     <>
       <header className="website-header">
-        
-        <TopBanner/>
-        
+        <TopBanner />
+
         <div className="mainBar">
           <div className="mainBarWrap">
             <div className="inner">
@@ -30,7 +29,7 @@ export const Header = () => {
                     <div className="mega-dropdown">
                       <div className="mega-dropdown-wrap">
                         <span>
-                        <img src="" alt="skywalker-logo-img"></img>
+                          <img src="" alt="skywalker-logo-img"></img>
                           <h1>SKYWALKER</h1>
                           <h2>
                             Learn how to apply and begin your studies at
@@ -128,8 +127,7 @@ export const Header = () => {
                     <div className="mega-dropdown">
                       <div className="mega-dropdown-wrap">
                         <span>
-                        
-                        <img src="" alt="gjr-logo-img"></img>
+                          <img src="" alt="gjr-logo-img"></img>
                           <h1>GJR</h1>
                           <h2>
                             Learn how to apply and begin your studies at
@@ -238,7 +236,7 @@ export const Header = () => {
                     <div className="mega-dropdown">
                       <div className="mega-dropdown-wrap">
                         <span>
-                        <img src="" alt="librex-logo"></img>
+                          <img src="" alt="librex-logo"></img>
                           <h1>LIBREX</h1>
                           <h2>
                             Learn how to apply and begin your studies at
