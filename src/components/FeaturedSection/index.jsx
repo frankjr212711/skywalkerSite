@@ -15,13 +15,9 @@ export const FeaturedSection = ({ data }) => {
           <div className="featuredWrap">
             <div className="featured-card">
               <div className="image-box">
-                <video
-                  autoPlay
-                  loop
-                  muted
+                <img
                   src={item.videoPath}
-                  type="video/mp4"
-                ></video>
+                ></img>
               </div>
               <div className="text-box">
                 <p>{item.titleOne}</p>

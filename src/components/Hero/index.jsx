@@ -1,6 +1,6 @@
 import "./styles.css";
 import { Link } from "react-router-dom";
-import Video from "~/assets/videos/video-3.mp4";
+import Video from "~/assets/videos/video-6.mp4";
 
 export const Hero = () => {
   return (

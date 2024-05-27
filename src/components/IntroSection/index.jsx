@@ -1,4 +1,4 @@
-// import Styles from "./styles.css";
+import "./styles.css";
 
 export const IntroSection = () => {
   return (
