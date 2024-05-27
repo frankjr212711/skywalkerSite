@@ -15,6 +15,9 @@ import {
 // import { Carousel } from "../../CarouselSlider";
 // import { Slides } from "../../../old/data/CarouselData";
 import { useState } from "react";
+import sachet from "~/assets/images/sky-img-01.jpg";
+import refill from "~/assets/images/sky-img-03.png";
+import dispenser from "~/assets/images/sky-img-02.jpg";
 
 const Skywalker = () => {
   return (
@@ -75,7 +78,7 @@ const Content = () => {
 
             <article className={current === 0 ? "active" : "gone"}>
               <h2>Sachet Waters</h2>
-              <img src="/images/sky-img-01.jpg" alt="sachet_img" />
+              <img src={sachet} className="sachet-img" alt="sachet_img" />
               <p>
                 Water sachets or sachet water is a common form of selling
                 pre-filtered or sanitized water in plastic, heat sealed bags in
@@ -148,7 +151,7 @@ const Content = () => {
 
             <article className={current === 1 ? "active" : "gone"}>
               <h2>Refill Water Bottles</h2>
-              <img src="/images/sky-img-03.png" alt="sachet_img" />
+              <img src={refill} alt="sachet_img" className="sachet-img" />
               <p>
                 One of our best-selling products is our 15-liter spring water
                 bottles. Customers adore the crisp, refreshing flavor of our
@@ -194,7 +197,7 @@ const Content = () => {
 
             <article className={current === 2 ? "active" : "gone"}>
               <h2>Dispenser Refridgerators</h2>
-              <img src="/images/sky-img-02.jpg" alt="sachet_img" />
+              <img src={dispenser} alt="sachet_img" className="sachet-img" />
               <p>
                 A water dispenser, known as water cooler (if used for cooling
                 only), is a machine that dispenses and often also cools or heats

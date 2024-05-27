@@ -12,6 +12,15 @@ import {
 } from "react-icons/fa";
 import { Footer } from "../../Footer";
 import { useState } from "react";
+import wardrobe from "~/assets/images/gjr-img-03.jpg";
+import kitchen from "~/assets/images/gjr-img-02.jpg";
+import tv from "~/assets/images/gjr-img-05.jpg";
+import vanity from "~/assets/images/gjr-img-06.jpg";
+import road from "~/assets/images/gjr-img-07.jpg";
+import building from "~/assets/images/gjr-img-08.jpg";
+import plumbing from "~/assets/images/gjr-img-09.jpg";
+import janitorial from "~/assets/images/gjr-img-10.jpg";
+import general from "~/assets/images/gjr-img-11.jpg";
 
 const GJR = () => {
   return (
@@ -148,7 +157,7 @@ const Content = () => {
 
             <article className={current === 0 ? "active" : "gone"}>
               <h2>Wordrobes</h2>
-              <img src="/images/gjr-img-03.jpg" alt="sachet_img" />
+              <img src={wardrobe} alt="sachet_img" className="sachet" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -213,7 +222,7 @@ const Content = () => {
 
             <article className={current === 1 ? "active" : "gone"}>
               <h2>Kitchens</h2>
-              <img src="/images/gjr-img-02.jpg" alt="sachet_img" />
+              <img src={kitchen} alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -278,7 +287,7 @@ const Content = () => {
 
             <article className={current === 2 ? "active" : "gone"}>
               <h2>TV Units</h2>
-              <img src="/images/gjr-img-05.jpg" alt="sachet_img" />
+              <img src={tv} alt="sachet_img" className="sachet-img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -343,7 +352,7 @@ const Content = () => {
 
             <article className={current === 3 ? "active" : "gone"}>
               <h2>Vanity Units</h2>
-              <img src="/images/gjr-img-06.jpg" alt="sachet_img" />
+              <img src={vanity} alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -408,7 +417,7 @@ const Content = () => {
 
             <article className={current === 4 ? "active" : "gone"}>
               <h2>Road Construction</h2>
-              <img src="/images/gjr-img-07.jpg" alt="sachet_img" />
+              <img src={road} alt="sachet_img" className="road-img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -473,7 +482,7 @@ const Content = () => {
 
             <article className={current === 5 ? "active" : "gone"}>
               <h2>Building Construction</h2>
-              <img src="/images/gjr-img-08.jpg" alt="sachet_img" />
+              <img src={building} alt="sachet_img" className="building-img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -538,7 +547,7 @@ const Content = () => {
 
             <article className={current === 6 ? "active" : "gone"}>
               <h2>Plumbing Works</h2>
-              <img src="/images/gjr-img-09.jpg" alt="sachet_img" />
+              <img src={plumbing} alt="sachet_img" className="plumbing-img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -603,7 +612,11 @@ const Content = () => {
 
             <article className={current === 7 ? "active" : "gone"}>
               <h2>Janitorial Works</h2>
-              <img src="/images/gjr-img-10.jpg" alt="sachet_img" />
+              <img
+                src={janitorial}
+                alt="sachet_img"
+                className="janitorial-img"
+              />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -668,7 +681,7 @@ const Content = () => {
 
             <article className={current === 8 ? "active" : "gone"}>
               <h2>General Merchant</h2>
-              <img src="/images/gjr-img-11.jpg" alt="sachet_img" />
+              <img src={general} alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum

@@ -6,6 +6,9 @@ import { Footer } from "../../Footer";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { useState } from "react";
 import pallelo from "~/assets/images/lib-pamello.webp";
+import waterello from "~/assets/images/lib-waterello.webp";
+import crystello from "~/assets/images/lib-crystello.jpg";
+import ritello from "~/assets/images/lib-ritello.jpg";
 const Librex = () => {
   return (
     <>
@@ -81,7 +84,7 @@ const Content = () => {
 
             <article className={current === 0 ? "active" : "gone"}>
               <h2>Pamello</h2>
-              <img src={pallelo} alt="sachet_img" />
+              <img src={pallelo} alt="sachet_img" className="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -146,7 +149,7 @@ const Content = () => {
 
             <article className={current === 1 ? "active" : "gone"}>
               <h2>Waterello</h2>
-              <img src="/images/lib-waterello.webp" alt="sachet_img" />
+              <img src={waterello} alt="sachet_img" className="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -211,7 +214,7 @@ const Content = () => {
 
             <article className={current === 2 ? "active" : "gone"}>
               <h2>Crystello</h2>
-              <img src="/images/lib-crystello.jpg" alt="sachet_img" />
+              <img src={crystello} alt="sachet_img" className="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
@@ -276,7 +279,7 @@ const Content = () => {
 
             <article className={current === 3 ? "active" : "gone"}>
               <h2>Ritello</h2>
-              <img src="/images/lib-ritello.jpg" alt="sachet_img" />
+              <img src={ritello} className="sachet_img" alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
