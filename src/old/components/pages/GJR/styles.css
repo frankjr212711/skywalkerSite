@@ -1,0 +1,260 @@
+.content {
+  font-family: "Montserrat";
+  /* padding: 0rem 0 1rem 0 ; */
+  background-color: #f2f2f2;
+}
+/* .top-Banner {
+  margin-top: 200px;
+  width: 100%;
+  height: 30px;
+  background: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+}
+.top-Banner-wrap {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+.midBanner {
+  margin-top: 60px;
+  width: 100%;
+  height: 70px;
+  background-color: #000044;
+  color: #fff;
+}
+.midBanner-wrap {
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: .3s ease;
+}
+.midBanner-wrap h2 {
+  font-size: 1.8rem;
+}
+.midBanner-wrap h2 strong {
+  color: #ac8420;
+}
+
+.contact-sec {
+  display: flex;
+  align-items: center;
+}
+.contact-sec span {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 0 1rem;
+  font-size: 14px;
+}
+.contact-sec span:not(:last-child) {
+  border-right: 2px solid #424242;
+}
+.contact-sec span .email {
+  color: #8d8d8d;
+  letter-spacing: 1px;
+}
+
+.contact-sec span p {
+  color: #8d8d8d;
+}
+
+.fa {
+  margin-left: 1rem;
+  font-size: 14px;
+}
+
+.thirdBanner {
+  width: 100%;
+  height: 50px;
+  border-top: 8px solid #ac8420;
+  background: #111;
+}
+
+.forthBanner {
+  width: 100%;
+  height: 40px;
+  background: white;
+
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.forthBanner-wrap {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.forthBanner-wrap a {
+  color: #111;
+  font-size: 12px;
+  font-weight: 600;
+  width: 20%;
+  text-align: center;
+  position: relative;
+}
+
+
+.forthBanner-wrap a:hover {
+  text-decoration: underline;
+}
+
+.gjr-body-content {
+  width: 100%;
+  min-height: 100vh;
+  /* margin-bottom: 1rem; */
+}
+.gjr-body-content-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gjr-body-content-wrap header {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.gjr-main {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+}
+.gjr-main nav {
+  padding-right: 1rem;
+  border-right: 1px solid #ddd;
+}
+.gjr-main nav li {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+.gjr-main nav li p {
+}
+#root
+  > div
+  > div.content
+  > div.gjr-body-content
+  > div
+  > div
+  > nav
+  > p
+  > strong {
+  font-size: 15px;
+}
+.gjr-main nav li::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.gjr-main nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+article {
+  grid-column: span 4;
+}
+article h2 {
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+article img {
+  width: 100%;
+}
+article p {
+  line-height: 1.5;
+  text-align: justify;
+  padding: .5rem 0 1rem 0;
+}
+aside {
+  padding-left: 1rem;
+  border-left: 1px solid #ddd;
+}
+aside p {
+  font-size: 13px;
+}
+
+
+.active {
+  display: block;
+}
+.gone {
+  display: none;
+}
+
+ @media screen and (max-width: 768px) {
+  .midBanner {
+    margin-top: 70px;
+  }
+  .midBanner-wrap {
+    width: 95%;
+    flex-direction: column;
+  }
+  .midBanner-wrap h1 {
+    font-size: 2rem;
+  }
+
+  .contact-sec span {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    column-gap: 10px;
+
+    font-size: 14px;
+  }
+  .gjr-body-content-wrap header {
+    padding: .25rem 0;
+  }
+  .gjr-body-content-wrap header h1 {
+    font-size: 2rem;
+  }
+
+  .gjr-main {
+    margin-top: 1rem;
+  }
+  .gjr-main p {
+    margin: .25rem 0;
+  }
+  
+  .gjr-main .expand-aside {
+    grid-column: span 6;
+    border-right: none;
+    height: inherit;
+
+  }
+  .gjr-main nav li {
+    
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .gjr-main nav li::before {
+    display: none;
+  }
+  .gjr-main article {
+    grid-column: span 6;
+    margin-bottom: .5rem;
+    padding: 0 0 1rem 0;
+  }
+  article h2 {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .gjr-main aside {
+    padding-left: 0;
+    border-left: none;
+  }
+  aside ul li  p {
+    font-size: 16px;
+  }
+  
+} 
