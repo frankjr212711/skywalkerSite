@@ -12,11 +12,11 @@ import {
   FaSnowflake,
   FaTiktok,
 } from "react-icons/fa";
-import { Carousel } from "../../CarouselSlider";
-import { Slides } from "../../../old/data/CarouselData";
+// import { Carousel } from "../../CarouselSlider";
+// import { Slides } from "../../../old/data/CarouselData";
 import { useState } from "react";
 
-export default Skywalker = () => {
+const Skywalker = () => {
   return (
     <>
       <HeadeR />
@@ -352,3 +352,5 @@ const ThirdBanner = () => {
     </div>
   );
 };
+
+export default Skywalker;
