@@ -5,7 +5,7 @@ import { MainBar } from "../../MainBar";
 import { Footer } from "../../Footer";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { useState } from "react";
-
+import pallelo from "~/assets/images/lib-pamello.webp";
 const Librex = () => {
   return (
     <>
@@ -81,7 +81,7 @@ const Content = () => {
 
             <article className={current === 0 ? "active" : "gone"}>
               <h2>Pamello</h2>
-              <img src="/images/lib-pamello.webp" alt="sachet_img" />
+              <img src={pallelo} alt="sachet_img" />
               <p>
                 Lorem ipsum dolor siti amet consectetur adipisicing elit,
                 Dignissiomos similique minima tempora corrupti neque eos dolorum
